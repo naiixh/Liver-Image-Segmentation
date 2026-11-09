@@ -1,0 +1,37 @@
+===== LIVER SEGMENTATION REPORT =====
+
+Model
+-----
+Architecture: U-Net (Ronneberger et al. 2015)
+
+Dataset
+-----
+Total images: 400
+Train: 360
+Validation: 40
+Image size: 256x256
+
+Hiperparameters
+-----
+Epochs: 25
+Batch size: 1
+Learning rate: 0.001
+
+Training Loss
+-----
+Best training loss: 0.004366
+
+Validation Performance
+-----
+Mean IoU: 0.9792
+Mean Pixel Accuracy: 0.9983
+
+Best segmentation
+-----
+IoU: 0.9889
+Pixel Accuracy: 0.9997
+
+Worst segmentation
+-----
+IoU: 0.9436
+Pixel Accuracy: 0.9960
